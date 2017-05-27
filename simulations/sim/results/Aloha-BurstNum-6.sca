@@ -1,0 +1,999 @@
+version 2
+run Aloha-BurstNum-6-20170328-03:54:21-4752
+attr configname Aloha-BurstNum
+attr datetime 20170328-03:54:21
+attr experiment Aloha-BurstNum
+attr inifile omnetpp.ini
+attr iterationvars $0=230
+attr iterationvars2 "$0=230, $repetition=0"
+attr measurement $0=230
+attr network ldMacTest
+attr processid 4752
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 6
+attr seedset 6
+param **.ap.mac.slotLength 0.1ms
+param **.ap.macType "\"AlohaApMac\""
+param **.ap.mobility.initFromDisplayString false
+param **.ap.mobility.initialX 300000m
+param **.ap.mobility.initialY 300000m
+param **.ap.mobility.initialZ 0m
+param **.ap.mobilityType "\"StationaryMobility\""
+param **.constraintAreaMaxX 600000m
+param **.constraintAreaMaxY 600000m
+param **.constraintAreaMaxZ 0m
+param **.constraintAreaMinX 0m
+param **.constraintAreaMinY 0m
+param **.constraintAreaMinZ 0m
+param **.hostNum 50
+param **.host[*].app.burstInterval exponential(1.5s)
+param **.host[*].app.burstNum "normal(200, 50)"
+param **.host[*].app.packetLength 4096b
+param **.host[*].app.startTime 0s
+param **.host[*].appType "\"BurstGenerator\""
+param **.host[*].mac.communicationRange 300000m
+param **.host[*].mac.slotLength 0.1ms
+param **.host[*].mac.txRate 100000000bps
+param **.host[*].macType "\"AlohaHostMac\""
+param **.host[*].mobility.initFromDisplayString false
+param **.host[*].mobility.speed uniform(80mps,100mps)
+param **.host[*].mobility.updateInterval 1s
+param **.host[*].mobility.waitTime 0s
+param **.host[*].mobilityType "\"RandomWPMobility\""
+
+scalar ldMacTest.ap.mac 	pkCount:count 	25418948
+attr interpolationmode  node
+attr source  pkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[0].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[0].app 	appPkCount:count 	1120149
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[0].mac 	sentPkCount:count 	1120149
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[0].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[0].mac 	queueTime:mean 	0.01222597953859
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[1].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[1].app 	appPkCount:count 	1117446
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[1].mac 	sentPkCount:count 	883607
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[1].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[1].mac 	queueTime:mean 	0.012192435678401
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[2].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[2].app 	appPkCount:count 	1102571
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[2].mac 	sentPkCount:count 	862010
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[2].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[2].mac 	queueTime:mean 	0.012199727597827
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[3].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[3].app 	appPkCount:count 	1092174
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[3].mac 	sentPkCount:count 	1067804
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[3].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[3].mac 	queueTime:mean 	0.012205610449205
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[4].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[4].app 	appPkCount:count 	1086585
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[4].mac 	sentPkCount:count 	1086585
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[4].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[4].mac 	queueTime:mean 	0.012240049454626
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[5].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[5].app 	appPkCount:count 	1110826
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[5].mac 	sentPkCount:count 	1110826
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[5].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[5].mac 	queueTime:mean 	0.012262332304134
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[6].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[6].app 	appPkCount:count 	1116998
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[6].mac 	sentPkCount:count 	1102243
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[6].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[6].mac 	queueTime:mean 	0.012159632821183
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[7].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[7].app 	appPkCount:count 	1084367
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[7].mac 	sentPkCount:count 	1084367
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[7].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[7].mac 	queueTime:mean 	0.012191577113387
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[8].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[8].app 	appPkCount:count 	1087822
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[8].mac 	sentPkCount:count 	1087822
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[8].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[8].mac 	queueTime:mean 	0.012180794323106
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[9].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[9].app 	appPkCount:count 	1133737
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[9].mac 	sentPkCount:count 	1133737
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[9].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[9].mac 	queueTime:mean 	0.01219604216329
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[10].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[10].app 	appPkCount:count 	1130441
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[10].mac 	sentPkCount:count 	1130441
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[10].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[10].mac 	queueTime:mean 	0.012263187093036
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[11].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[11].app 	appPkCount:count 	1118555
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[11].mac 	sentPkCount:count 	1118555
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[11].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[11].mac 	queueTime:mean 	0.012145906980797
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[12].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[12].app 	appPkCount:count 	1113306
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[12].mac 	sentPkCount:count 	1095950
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[12].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[12].mac 	queueTime:mean 	0.012231581809295
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[13].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[13].app 	appPkCount:count 	1074373
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[13].mac 	sentPkCount:count 	1074373
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[13].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[13].mac 	queueTime:mean 	0.012238073699193
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[14].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[14].app 	appPkCount:count 	1120791
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[14].mac 	sentPkCount:count 	1120791
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[14].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[14].mac 	queueTime:mean 	0.01225089021442
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[15].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[15].app 	appPkCount:count 	1098392
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[15].mac 	sentPkCount:count 	1098392
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[15].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[15].mac 	queueTime:mean 	0.012208631442106
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[16].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[16].app 	appPkCount:count 	1102241
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[16].mac 	sentPkCount:count 	882726
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[16].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[16].mac 	queueTime:mean 	0.012141816145071
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[17].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[17].app 	appPkCount:count 	1115433
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[17].mac 	sentPkCount:count 	1115433
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[17].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[17].mac 	queueTime:mean 	0.012251993763169
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[18].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[18].app 	appPkCount:count 	1075892
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[18].mac 	sentPkCount:count 	1075892
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[18].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[18].mac 	queueTime:mean 	0.012209205089093
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[19].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[19].app 	appPkCount:count 	1098083
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[19].mac 	sentPkCount:count 	1098083
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[19].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[19].mac 	queueTime:mean 	0.012240989323008
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[20].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[20].app 	appPkCount:count 	1123915
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[20].mac 	sentPkCount:count 	1123915
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[20].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[20].mac 	queueTime:mean 	0.01222650528758
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[21].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[21].app 	appPkCount:count 	1103400
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[21].mac 	sentPkCount:count 	928496
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[21].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[21].mac 	queueTime:mean 	0.012217152152705
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[22].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[22].app 	appPkCount:count 	1095010
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[22].mac 	sentPkCount:count 	1090489
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[22].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[22].mac 	queueTime:mean 	0.012220078625022
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[23].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[23].app 	appPkCount:count 	1136015
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[23].mac 	sentPkCount:count 	721830
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[23].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[23].mac 	queueTime:mean 	0.012182220628344
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[24].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[24].app 	appPkCount:count 	1093685
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[24].mac 	sentPkCount:count 	1093685
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[24].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[24].mac 	queueTime:mean 	0.012265407497115
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[25].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[25].app 	appPkCount:count 	1068813
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[25].mac 	sentPkCount:count 	766421
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[25].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[25].mac 	queueTime:mean 	0.012270032933113
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[26].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[26].app 	appPkCount:count 	1097237
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[26].mac 	sentPkCount:count 	1097237
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[26].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[26].mac 	queueTime:mean 	0.012237382604188
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[27].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[27].app 	appPkCount:count 	1094373
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[27].mac 	sentPkCount:count 	1027451
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[27].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[27].mac 	queueTime:mean 	0.012207512186251
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[28].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[28].app 	appPkCount:count 	1096985
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[28].mac 	sentPkCount:count 	1007762
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[28].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[28].mac 	queueTime:mean 	0.012202850272454
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[29].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[29].app 	appPkCount:count 	1065775
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[29].mac 	sentPkCount:count 	1065775
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[29].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[29].mac 	queueTime:mean 	0.012227082833386
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[30].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[30].app 	appPkCount:count 	1105146
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[30].mac 	sentPkCount:count 	1105146
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[30].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[30].mac 	queueTime:mean 	0.012214897247536
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[31].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[31].app 	appPkCount:count 	1094817
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[31].mac 	sentPkCount:count 	963942
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[31].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[31].mac 	queueTime:mean 	0.012207456789352
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[32].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[32].app 	appPkCount:count 	1106749
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[32].mac 	sentPkCount:count 	1106749
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[32].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[32].mac 	queueTime:mean 	0.012259132717042
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[33].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[33].app 	appPkCount:count 	1129635
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[33].mac 	sentPkCount:count 	1129635
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[33].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[33].mac 	queueTime:mean 	0.012273661187375
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[34].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[34].app 	appPkCount:count 	1104935
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[34].mac 	sentPkCount:count 	795633
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[34].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[34].mac 	queueTime:mean 	0.012218195147221
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[35].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[35].app 	appPkCount:count 	1123061
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[35].mac 	sentPkCount:count 	881369
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[35].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[35].mac 	queueTime:mean 	0.012250491291766
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[36].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[36].app 	appPkCount:count 	1118242
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[36].mac 	sentPkCount:count 	956100
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[36].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[36].mac 	queueTime:mean 	0.012204423080384
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[37].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[37].app 	appPkCount:count 	1096026
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[37].mac 	sentPkCount:count 	982750
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[37].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[37].mac 	queueTime:mean 	0.012192127579556
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[38].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[38].app 	appPkCount:count 	1089678
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[38].mac 	sentPkCount:count 	1082328
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[38].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[38].mac 	queueTime:mean 	0.012147158149102
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[39].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[39].app 	appPkCount:count 	1135319
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[39].mac 	sentPkCount:count 	878974
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[39].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[39].mac 	queueTime:mean 	0.012212169633239
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[40].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[40].app 	appPkCount:count 	1130197
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[40].mac 	sentPkCount:count 	1130197
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[40].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[40].mac 	queueTime:mean 	0.01220901143837
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[41].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[41].app 	appPkCount:count 	1116675
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[41].mac 	sentPkCount:count 	825182
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[41].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[41].mac 	queueTime:mean 	0.012221695126148
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[42].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[42].app 	appPkCount:count 	1104936
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[42].mac 	sentPkCount:count 	1083499
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[42].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[42].mac 	queueTime:mean 	0.012193471235362
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[43].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[43].app 	appPkCount:count 	1120883
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[43].mac 	sentPkCount:count 	1120883
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[43].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[43].mac 	queueTime:mean 	0.012198930085607
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[44].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[44].app 	appPkCount:count 	1086530
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[44].mac 	sentPkCount:count 	1086530
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[44].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[44].mac 	queueTime:mean 	0.012147815838653
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[45].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[45].app 	appPkCount:count 	1120133
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[45].mac 	sentPkCount:count 	1120133
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[45].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[45].mac 	queueTime:mean 	0.012208118098113
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[46].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[46].app 	appPkCount:count 	1149210
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[46].mac 	sentPkCount:count 	1028448
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[46].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[46].mac 	queueTime:mean 	0.012242983235029
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[47].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[47].app 	appPkCount:count 	1101373
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[47].mac 	sentPkCount:count 	1014494
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[47].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[47].mac 	queueTime:mean 	0.012216996778468
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[48].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[48].app 	appPkCount:count 	1100025
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[48].mac 	sentPkCount:count 	786172
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[48].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[48].mac 	queueTime:mean 	0.012146832201356
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar ldMacTest.host[49].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar ldMacTest.host[49].app 	appPkCount:count 	1075392
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar ldMacTest.host[49].mac 	sentPkCount:count 	1044974
+attr interpolationmode  node
+attr source  sentPkCount
+attr title  "pkCount, count"
+scalar ldMacTest.host[49].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar ldMacTest.host[49].mac 	queueTime:mean 	0.012152735573977
+attr source  queueTime
+attr title  "queueTime, mean"

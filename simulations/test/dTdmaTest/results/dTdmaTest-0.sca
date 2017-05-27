@@ -1,0 +1,2692 @@
+version 2
+run dTdmaTest-0-20170315-20:02:20-11296
+attr configname dTdmaTest
+attr datetime 20170315-20:02:20
+attr experiment dTdmaTest
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network dTdmaTest
+attr processid 11296
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.ap.mac.reqSlotNum 20
+param **.ap.mac.slotLength 0.1ms
+param **.ap.mac.slotNum 1000
+param **.ap.macType "\"TdmaApMac\""
+param **.ap.mobility.initFromDisplayString false
+param **.ap.mobility.initialX 300000m
+param **.ap.mobility.initialY 300000m
+param **.ap.mobility.initialZ 0m
+param **.ap.mobilityType "\"StationaryMobility\""
+param **.constraintAreaMaxX 600000m
+param **.constraintAreaMaxY 600000m
+param **.constraintAreaMaxZ 0m
+param **.constraintAreaMinX 0m
+param **.constraintAreaMinY 0m
+param **.constraintAreaMinZ 0m
+param **.hostNum 50
+param **.host[*].app.burstInterval exponential(1.5s)
+param **.host[*].app.burstNum normal(200,50)
+param **.host[*].app.packetLength 4096b
+param **.host[*].app.startTime 0s
+param **.host[*].appType "\"BurstGenerator\""
+param **.host[*].mac.reqPktLength 10b
+param **.host[*].mac.slotLength 0.1ms
+param **.host[*].mac.slotNum 1000
+param **.host[*].mac.txRate 100000000bps
+param **.host[*].macType "\"TdmaHostMac\""
+param **.host[*].mobility.initFromDisplayString false
+param **.host[*].mobility.speed 100mps
+param **.host[*].mobility.updateInterval 1s
+param **.host[*].mobility.waitTime 0.1s
+param **.host[*].mobilityType "\"RandomWPMobility\""
+
+scalar dTdmaTest.ap.mac 	pkCount10:count 	202123
+attr interpolationmode  node
+attr source  pkCount10
+attr title  "pkCount10, count"
+scalar dTdmaTest.ap.mac 	pkCount9:count 	111340
+attr interpolationmode  node
+attr source  pkCount9
+attr title  "pkCount9, count"
+scalar dTdmaTest.ap.mac 	pkCount8:count 	167411
+attr interpolationmode  node
+attr source  pkCount8
+attr title  "pkCount8, count"
+scalar dTdmaTest.ap.mac 	pkCount7:count 	99811
+attr interpolationmode  node
+attr source  pkCount7
+attr title  "pkCount7, count"
+scalar dTdmaTest.ap.mac 	pkCount6:count 	75914
+attr interpolationmode  node
+attr source  pkCount6
+attr title  "pkCount6, count"
+scalar dTdmaTest.ap.mac 	pkCount5:count 	158837
+attr interpolationmode  node
+attr source  pkCount5
+attr title  "pkCount5, count"
+scalar dTdmaTest.ap.mac 	pkCount4:count 	112207
+attr interpolationmode  node
+attr source  pkCount4
+attr title  "pkCount4, count"
+scalar dTdmaTest.ap.mac 	pkCount3:count 	86989
+attr interpolationmode  node
+attr source  pkCount3
+attr title  "pkCount3, count"
+scalar dTdmaTest.ap.mac 	pkCount2:count 	18639
+attr interpolationmode  node
+attr source  pkCount2
+attr title  "pkCount2, count"
+scalar dTdmaTest.ap.mac 	pkCount1:count 	0
+attr interpolationmode  node
+attr source  pkCount1
+attr title  "pkCount1, count"
+scalar dTdmaTest.ap.mac 	pkCount:count 	1033271
+attr interpolationmode  node
+attr source  pkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[0].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[0].app 	appPkCount:count 	23297
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[0].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[0].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[0].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[0].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[0].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[0].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[0].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[0].mac 	time3:count 	522
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[0].mac 	time2:count 	1416
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[0].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[0].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[0].mac 	sendPkCount:count 	22775
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[0].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[0].mac 	queueTime:mean 	2.3768034222578
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[1].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[1].app 	appPkCount:count 	28367
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[1].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[1].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[1].mac 	time8:count 	603
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[1].mac 	time7:count 	1335
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[1].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[1].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[1].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[1].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[1].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[1].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[1].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[1].mac 	sendPkCount:count 	21749
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[1].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[1].mac 	queueTime:mean 	20.567148142298
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[2].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[2].app 	appPkCount:count 	26945
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[2].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[2].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[2].mac 	time8:count 	9
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[2].mac 	time7:count 	1929
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[2].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[2].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[2].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[2].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[2].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[2].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[2].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[2].mac 	sendPkCount:count 	22992
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[2].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[2].mac 	queueTime:mean 	11.089139335478
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[3].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[3].app 	appPkCount:count 	21099
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[3].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[3].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[3].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[3].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[3].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[3].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[3].mac 	time4:count 	1938
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[3].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[3].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[3].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[3].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[3].mac 	sendPkCount:count 	20723
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[3].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[3].mac 	queueTime:mean 	2.2113520237371
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[4].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[4].app 	appPkCount:count 	24256
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[4].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[4].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[4].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[4].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[4].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[4].mac 	time5:count 	752
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[4].mac 	time4:count 	1186
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[4].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[4].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[4].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[4].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[4].mac 	sendPkCount:count 	23480
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[4].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[4].mac 	queueTime:mean 	3.6689425576379
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[5].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[5].app 	appPkCount:count 	27673
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[5].mac 	time10:count 	1938
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[5].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[5].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[5].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[5].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[5].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[5].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[5].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[5].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[5].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[5].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[5].mac 	sendPkCount:count 	12880
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[5].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[5].mac 	queueTime:mean 	48.027727533349
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[6].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[6].app 	appPkCount:count 	31202
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[6].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[6].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[6].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[6].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[6].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[6].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[6].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[6].mac 	time3:count 	1744
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[6].mac 	time2:count 	194
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[6].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[6].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[6].mac 	sendPkCount:count 	30847
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[6].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[6].mac 	queueTime:mean 	8.727694444388
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[7].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[7].app 	appPkCount:count 	25735
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[7].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[7].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[7].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[7].mac 	time7:count 	841
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[7].mac 	time6:count 	1097
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[7].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[7].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[7].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[7].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[7].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[7].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[7].mac 	sendPkCount:count 	23049
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[7].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[7].mac 	queueTime:mean 	19.156391092287
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[8].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[8].app 	appPkCount:count 	23883
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[8].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[8].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[8].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[8].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[8].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[8].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[8].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[8].mac 	time3:count 	1938
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[8].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[8].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[8].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[8].mac 	sendPkCount:count 	23412
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[8].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[8].mac 	queueTime:mean 	2.448168165959
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[9].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[9].app 	appPkCount:count 	24574
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[9].mac 	time10:count 	1938
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[9].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[9].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[9].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[9].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[9].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[9].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[9].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[9].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[9].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[9].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[9].mac 	sendPkCount:count 	16487
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[9].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[9].mac 	queueTime:mean 	40.002643002094
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[10].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[10].app 	appPkCount:count 	27640
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[10].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[10].mac 	time9:count 	1938
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[10].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[10].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[10].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[10].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[10].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[10].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[10].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[10].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[10].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[10].mac 	sendPkCount:count 	20267
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[10].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[10].mac 	queueTime:mean 	32.53754624737
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[11].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[11].app 	appPkCount:count 	26429
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[11].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[11].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[11].mac 	time8:count 	854
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[11].mac 	time7:count 	1084
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[11].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[11].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[11].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[11].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[11].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[11].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[11].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[11].mac 	sendPkCount:count 	21540
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[11].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[11].mac 	queueTime:mean 	21.143905506161
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[12].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[12].app 	appPkCount:count 	23884
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[12].mac 	time10:count 	1938
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[12].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[12].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[12].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[12].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[12].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[12].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[12].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[12].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[12].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[12].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[12].mac 	sendPkCount:count 	17086
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[12].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[12].mac 	queueTime:mean 	17.824309909523
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[13].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[13].app 	appPkCount:count 	24399
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[13].mac 	time10:count 	1938
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[13].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[13].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[13].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[13].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[13].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[13].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[13].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[13].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[13].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[13].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[13].mac 	sendPkCount:count 	14322
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[13].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[13].mac 	queueTime:mean 	37.693049007754
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[14].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[14].app 	appPkCount:count 	25618
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[14].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[14].mac 	time9:count 	1459
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[14].mac 	time8:count 	479
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[14].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[14].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[14].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[14].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[14].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[14].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[14].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[14].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[14].mac 	sendPkCount:count 	18798
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[14].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[14].mac 	queueTime:mean 	32.364928071569
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[15].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[15].app 	appPkCount:count 	25655
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[15].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[15].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[15].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[15].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[15].mac 	time6:count 	1938
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[15].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[15].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[15].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[15].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[15].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[15].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[15].mac 	sendPkCount:count 	22777
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[15].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[15].mac 	queueTime:mean 	12.440284976658
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[16].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[16].app 	appPkCount:count 	23425
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[16].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[16].mac 	time9:count 	1938
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[16].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[16].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[16].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[16].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[16].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[16].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[16].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[16].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[16].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[16].mac 	sendPkCount:count 	18585
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[16].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[16].mac 	queueTime:mean 	21.411969144072
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[17].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[17].app 	appPkCount:count 	24843
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[17].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[17].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[17].mac 	time8:count 	1214
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[17].mac 	time7:count 	724
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[17].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[17].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[17].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[17].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[17].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[17].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[17].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[17].mac 	sendPkCount:count 	22060
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[17].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[17].mac 	queueTime:mean 	15.828046931474
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[18].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[18].app 	appPkCount:count 	24756
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[18].mac 	time10:count 	1938
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[18].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[18].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[18].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[18].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[18].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[18].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[18].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[18].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[18].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[18].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[18].mac 	sendPkCount:count 	17051
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[18].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[18].mac 	queueTime:mean 	31.665841302641
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[19].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[19].app 	appPkCount:count 	33087
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[19].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[19].mac 	time9:count 	1938
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[19].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[19].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[19].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[19].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[19].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[19].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[19].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[19].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[19].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[19].mac 	sendPkCount:count 	19540
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[19].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[19].mac 	queueTime:mean 	32.7848616378
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[20].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[20].app 	appPkCount:count 	22065
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[20].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[20].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[20].mac 	time8:count 	1938
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[20].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[20].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[20].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[20].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[20].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[20].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[20].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[20].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[20].mac 	sendPkCount:count 	20191
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[20].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[20].mac 	queueTime:mean 	7.4889383913839
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[21].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[21].app 	appPkCount:count 	22570
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[21].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[21].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[21].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[21].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[21].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[21].mac 	time5:count 	1938
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[21].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[21].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[21].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[21].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[21].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[21].mac 	sendPkCount:count 	22322
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[21].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[21].mac 	queueTime:mean 	3.5509704601625
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[22].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[22].app 	appPkCount:count 	24375
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[22].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[22].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[22].mac 	time8:count 	1938
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[22].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[22].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[22].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[22].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[22].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[22].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[22].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[22].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[22].mac 	sendPkCount:count 	21046
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[22].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[22].mac 	queueTime:mean 	12.284243902804
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[23].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[23].app 	appPkCount:count 	26377
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[23].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[23].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[23].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[23].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[23].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[23].mac 	time5:count 	937
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[23].mac 	time4:count 	1001
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[23].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[23].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[23].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[23].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[23].mac 	sendPkCount:count 	25246
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[23].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[23].mac 	queueTime:mean 	8.5225401445985
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[24].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[24].app 	appPkCount:count 	26064
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[24].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[24].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[24].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[24].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[24].mac 	time6:count 	1938
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[24].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[24].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[24].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[24].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[24].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[24].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[24].mac 	sendPkCount:count 	24585
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[24].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[24].mac 	queueTime:mean 	3.9885350364567
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[25].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[25].app 	appPkCount:count 	27143
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[25].mac 	time10:count 	1938
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[25].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[25].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[25].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[25].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[25].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[25].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[25].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[25].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[25].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[25].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[25].mac 	sendPkCount:count 	17701
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[25].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[25].mac 	queueTime:mean 	39.564075074819
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[26].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[26].app 	appPkCount:count 	25667
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[26].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[26].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[26].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[26].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[26].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[26].mac 	time5:count 	1055
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[26].mac 	time4:count 	883
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[26].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[26].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[26].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[26].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[26].mac 	sendPkCount:count 	24131
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[26].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[26].mac 	queueTime:mean 	3.246975423284
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[27].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[27].app 	appPkCount:count 	27509
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[27].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[27].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[27].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[27].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[27].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[27].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[27].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[27].mac 	time3:count 	1938
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[27].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[27].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[27].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[27].mac 	sendPkCount:count 	27122
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[27].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[27].mac 	queueTime:mean 	2.5093027545391
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[28].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[28].app 	appPkCount:count 	24230
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[28].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[28].mac 	time9:count 	1938
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[28].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[28].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[28].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[28].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[28].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[28].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[28].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[28].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[28].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[28].mac 	sendPkCount:count 	19224
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[28].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[28].mac 	queueTime:mean 	20.357545613712
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[29].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[29].app 	appPkCount:count 	27253
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[29].mac 	time10:count 	1938
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[29].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[29].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[29].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[29].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[29].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[29].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[29].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[29].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[29].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[29].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[29].mac 	sendPkCount:count 	18412
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[29].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[29].mac 	queueTime:mean 	21.548783045454
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[30].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[30].app 	appPkCount:count 	21889
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[30].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[30].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[30].mac 	time8:count 	1243
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[30].mac 	time7:count 	695
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[30].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[30].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[30].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[30].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[30].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[30].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[30].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[30].mac 	sendPkCount:count 	20763
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[30].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[30].mac 	queueTime:mean 	12.619593627975
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[31].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[31].app 	appPkCount:count 	22769
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[31].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[31].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[31].mac 	time8:count 	1938
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[31].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[31].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[31].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[31].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[31].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[31].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[31].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[31].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[31].mac 	sendPkCount:count 	19636
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[31].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[31].mac 	queueTime:mean 	10.088218262154
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[32].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[32].app 	appPkCount:count 	24404
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[32].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[32].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[32].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[32].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[32].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[32].mac 	time5:count 	1938
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[32].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[32].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[32].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[32].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[32].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[32].mac 	sendPkCount:count 	23222
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[32].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[32].mac 	queueTime:mean 	6.1920936335914
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[33].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[33].app 	appPkCount:count 	26288
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[33].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[33].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[33].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[33].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[33].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[33].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[33].mac 	time4:count 	1938
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[33].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[33].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[33].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[33].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[33].mac 	sendPkCount:count 	25614
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[33].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[33].mac 	queueTime:mean 	4.3297313754268
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[34].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[34].app 	appPkCount:count 	28839
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[34].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[34].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[34].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[34].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[34].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[34].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[34].mac 	time4:count 	1795
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[34].mac 	time3:count 	143
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[34].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[34].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[34].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[34].mac 	sendPkCount:count 	26608
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[34].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[34].mac 	queueTime:mean 	5.3677937080952
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[35].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[35].app 	appPkCount:count 	26310
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[35].mac 	time10:count 	1938
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[35].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[35].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[35].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[35].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[35].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[35].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[35].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[35].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[35].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[35].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[35].mac 	sendPkCount:count 	14247
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[35].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[35].mac 	queueTime:mean 	47.313990848986
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[36].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[36].app 	appPkCount:count 	21839
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[36].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[36].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[36].mac 	time8:count 	136
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[36].mac 	time7:count 	1802
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[36].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[36].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[36].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[36].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[36].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[36].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[36].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[36].mac 	sendPkCount:count 	20631
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[36].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[36].mac 	queueTime:mean 	4.9166602770691
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[37].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[37].app 	appPkCount:count 	26878
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[37].mac 	time10:count 	1938
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[37].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[37].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[37].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[37].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[37].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[37].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[37].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[37].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[37].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[37].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[37].mac 	sendPkCount:count 	17213
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[37].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[37].mac 	queueTime:mean 	34.326312104672
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[38].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[38].app 	appPkCount:count 	26711
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[38].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[38].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[38].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[38].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[38].mac 	time6:count 	725
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[38].mac 	time5:count 	1213
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[38].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[38].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[38].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[38].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[38].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[38].mac 	sendPkCount:count 	24929
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[38].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[38].mac 	queueTime:mean 	5.9237497463609
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[39].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[39].app 	appPkCount:count 	24342
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[39].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[39].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[39].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[39].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[39].mac 	time6:count 	482
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[39].mac 	time5:count 	1456
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[39].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[39].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[39].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[39].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[39].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[39].mac 	sendPkCount:count 	23885
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[39].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[39].mac 	queueTime:mean 	12.007219934119
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[40].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[40].app 	appPkCount:count 	23157
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[40].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[40].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[40].mac 	time8:count 	1690
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[40].mac 	time7:count 	248
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[40].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[40].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[40].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[40].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[40].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[40].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[40].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[40].mac 	sendPkCount:count 	20484
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[40].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[40].mac 	queueTime:mean 	8.1008035479487
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[41].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[41].app 	appPkCount:count 	28679
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[41].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[41].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[41].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[41].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[41].mac 	time6:count 	173
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[41].mac 	time5:count 	1765
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[41].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[41].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[41].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[41].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[41].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[41].mac 	sendPkCount:count 	24659
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[41].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[41].mac 	queueTime:mean 	13.456566537066
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[42].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[42].app 	appPkCount:count 	27511
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[42].mac 	time10:count 	691
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[42].mac 	time9:count 	1247
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[42].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[42].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[42].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[42].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[42].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[42].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[42].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[42].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[42].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[42].mac 	sendPkCount:count 	17993
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[42].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[42].mac 	queueTime:mean 	43.335492106146
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[43].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[43].app 	appPkCount:count 	26478
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[43].mac 	time10:count 	1127
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[43].mac 	time9:count 	811
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[43].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[43].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[43].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[43].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[43].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[43].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[43].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[43].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[43].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[43].mac 	sendPkCount:count 	18287
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[43].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[43].mac 	queueTime:mean 	31.238267432227
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[44].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[44].app 	appPkCount:count 	25580
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[44].mac 	time10:count 	1938
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[44].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[44].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[44].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[44].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[44].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[44].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[44].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[44].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[44].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[44].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[44].mac 	sendPkCount:count 	14649
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[44].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[44].mac 	queueTime:mean 	41.086892069161
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[45].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[45].app 	appPkCount:count 	26114
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[45].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[45].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[45].mac 	time8:count 	1938
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[45].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[45].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[45].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[45].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[45].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[45].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[45].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[45].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[45].mac 	sendPkCount:count 	21038
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[45].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[45].mac 	queueTime:mean 	23.395206365148
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[46].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[46].app 	appPkCount:count 	24851
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[46].mac 	time10:count 	1938
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[46].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[46].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[46].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[46].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[46].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[46].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[46].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[46].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[46].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[46].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[46].mac 	sendPkCount:count 	13384
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[46].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[46].mac 	queueTime:mean 	52.322957327993
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[47].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[47].app 	appPkCount:count 	26380
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[47].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[47].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[47].mac 	time8:count 	1938
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[47].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[47].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[47].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[47].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[47].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[47].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[47].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[47].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[47].mac 	sendPkCount:count 	20184
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[47].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[47].mac 	queueTime:mean 	26.302325847688
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[48].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[48].app 	appPkCount:count 	25053
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[48].mac 	time10:count 	1938
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[48].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[48].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[48].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[48].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[48].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[48].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[48].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[48].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[48].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[48].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[48].mac 	sendPkCount:count 	12693
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[48].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[48].mac 	queueTime:mean 	48.299047819471
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar dTdmaTest.host[49].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar dTdmaTest.host[49].app 	appPkCount:count 	24496
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar dTdmaTest.host[49].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar dTdmaTest.host[49].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar dTdmaTest.host[49].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar dTdmaTest.host[49].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar dTdmaTest.host[49].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar dTdmaTest.host[49].mac 	time5:count 	1938
+attr source  time5
+attr title  "time5, count"
+scalar dTdmaTest.host[49].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar dTdmaTest.host[49].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar dTdmaTest.host[49].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar dTdmaTest.host[49].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar dTdmaTest.host[49].mac 	time0:count 	1938
+attr source  time0
+attr title  "time0, count"
+scalar dTdmaTest.host[49].mac 	sendPkCount:count 	22755
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar dTdmaTest.host[49].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar dTdmaTest.host[49].mac 	queueTime:mean 	3.5130411775222
+attr source  queueTime
+attr title  "queueTime, mean"

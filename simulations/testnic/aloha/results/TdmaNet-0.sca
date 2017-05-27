@@ -1,0 +1,180 @@
+version 2
+run TdmaNet-0-20170317-15:25:34-664
+attr configname TdmaNet
+attr datetime 20170317-15:25:34
+attr experiment TdmaNet
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network AlohaNet
+attr processid 664
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.ap.macType "\"AlohaApMac\""
+param **.ap.mobility.initFromDisplayString false
+param **.ap.mobility.initialX 300000m
+param **.ap.mobility.initialY 300000m
+param **.ap.mobility.initialZ 0m
+param **.ap.mobilityType "\"StationaryMobility\""
+param **.constraintAreaMaxX 600000m
+param **.constraintAreaMaxY 600000m
+param **.constraintAreaMaxZ 0m
+param **.constraintAreaMinX 0m
+param **.constraintAreaMinY 0m
+param **.constraintAreaMinZ 0m
+param **.hostNum 7
+param **.host[*].app.burstInterval exponential(1.5s)
+param **.host[*].app.burstNum normal(200,50)
+param **.host[*].app.packetLength 4096b
+param **.host[*].app.startTime 0s
+param **.host[*].appType "\"BurstGenerator\""
+param **.host[*].mac.slotTime 0.1ms
+param **.host[*].mac.txRate 100000000bps
+param **.host[*].macType "\"AlohaHostMac\""
+param **.host[*].mobility.initFromDisplayString false
+param **.host[*].mobility.speed 100mps
+param **.host[*].mobility.updateInterval 1s
+param **.host[*].mobility.waitTime 0.1s
+param **.host[*].mobilityType "\"RandomWPMobility\""
+
+scalar AlohaNet.ap.mac 	pkCount:count 	0
+attr interpolationmode  node
+attr source  pkCount
+attr title  "pkCount, count"
+scalar AlohaNet.host[0].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar AlohaNet.host[0].app 	appPkCount:count 	237489
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar AlohaNet.host[0].mac 	sendPkCount:count 	0
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar AlohaNet.host[0].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar AlohaNet.host[0].mac 	queueTime:mean 	nan
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar AlohaNet.host[1].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar AlohaNet.host[1].app 	appPkCount:count 	224311
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar AlohaNet.host[1].mac 	sendPkCount:count 	0
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar AlohaNet.host[1].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar AlohaNet.host[1].mac 	queueTime:mean 	nan
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar AlohaNet.host[2].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar AlohaNet.host[2].app 	appPkCount:count 	226634
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar AlohaNet.host[2].mac 	sendPkCount:count 	0
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar AlohaNet.host[2].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar AlohaNet.host[2].mac 	queueTime:mean 	nan
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar AlohaNet.host[3].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar AlohaNet.host[3].app 	appPkCount:count 	239042
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar AlohaNet.host[3].mac 	sendPkCount:count 	0
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar AlohaNet.host[3].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar AlohaNet.host[3].mac 	queueTime:mean 	nan
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar AlohaNet.host[4].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar AlohaNet.host[4].app 	appPkCount:count 	232120
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar AlohaNet.host[4].mac 	sendPkCount:count 	0
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar AlohaNet.host[4].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar AlohaNet.host[4].mac 	queueTime:mean 	nan
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar AlohaNet.host[5].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar AlohaNet.host[5].app 	appPkCount:count 	247416
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar AlohaNet.host[5].mac 	sendPkCount:count 	0
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar AlohaNet.host[5].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar AlohaNet.host[5].mac 	queueTime:mean 	nan
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar AlohaNet.host[6].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar AlohaNet.host[6].app 	appPkCount:count 	240114
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar AlohaNet.host[6].mac 	sendPkCount:count 	0
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar AlohaNet.host[6].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar AlohaNet.host[6].mac 	queueTime:mean 	nan
+attr source  queueTime
+attr title  "queueTime, mean"

@@ -1,0 +1,347 @@
+version 2
+run gAlohaTest-0-20170310-21:10:09-16868
+attr configname gAlohaTest
+attr datetime 20170310-21:10:09
+attr experiment gAlohaTest
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network gAlohaTest
+attr processid 16868
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.ap.macType "\"AlohaApMac\""
+param **.ap.mobility.initFromDisplayString false
+param **.ap.mobility.initialX 300000m
+param **.ap.mobility.initialY 300000m
+param **.ap.mobility.initialZ 0m
+param **.ap.mobilityType "\"StationaryMobility\""
+param **.constraintAreaMaxX 600000m
+param **.constraintAreaMaxY 600000m
+param **.constraintAreaMaxZ 0m
+param **.constraintAreaMinX 0m
+param **.constraintAreaMinY 0m
+param **.constraintAreaMinZ 0m
+param **.hostNum 5
+param **.host[*].app.burstInterval exponential(0.1s)
+param **.host[*].app.burstNum "normal(50, 5)"
+param **.host[*].app.packetLength 4096b
+param **.host[*].app.startTime 0s
+param **.host[*].appType "\"BurstGenerator\""
+param **.host[*].mac.slotTime 0.1ms
+param **.host[*].mac.txRate 100000000bps
+param **.host[*].macType "\"AlohaHostMac\""
+param **.host[*].mobility.initFromDisplayString false
+param **.host[*].mobility.speed 100mps
+param **.host[*].mobility.updateInterval 1s
+param **.host[*].mobility.waitTime 0.1s
+param **.host[*].mobilityType "\"RandomWPMobility\""
+
+scalar gAlohaTest.ap.mac 	pkCount10:count 	0
+attr interpolationmode  node
+attr source  pkCount10
+attr title  "pkCount10, count"
+scalar gAlohaTest.ap.mac 	pkCount9:count 	0
+attr interpolationmode  node
+attr source  pkCount9
+attr title  "pkCount9, count"
+scalar gAlohaTest.ap.mac 	pkCount8:count 	64022
+attr interpolationmode  node
+attr source  pkCount8
+attr title  "pkCount8, count"
+scalar gAlohaTest.ap.mac 	pkCount7:count 	0
+attr interpolationmode  node
+attr source  pkCount7
+attr title  "pkCount7, count"
+scalar gAlohaTest.ap.mac 	pkCount6:count 	0
+attr interpolationmode  node
+attr source  pkCount6
+attr title  "pkCount6, count"
+scalar gAlohaTest.ap.mac 	pkCount5:count 	59340
+attr interpolationmode  node
+attr source  pkCount5
+attr title  "pkCount5, count"
+scalar gAlohaTest.ap.mac 	pkCount4:count 	0
+attr interpolationmode  node
+attr source  pkCount4
+attr title  "pkCount4, count"
+scalar gAlohaTest.ap.mac 	pkCount3:count 	64224
+attr interpolationmode  node
+attr source  pkCount3
+attr title  "pkCount3, count"
+scalar gAlohaTest.ap.mac 	pkCount2:count 	0
+attr interpolationmode  node
+attr source  pkCount2
+attr title  "pkCount2, count"
+scalar gAlohaTest.ap.mac 	pkCount1:count 	0
+attr interpolationmode  node
+attr source  pkCount1
+attr title  "pkCount1, count"
+scalar gAlohaTest.ap.mac 	pkCount:count 	187586
+attr interpolationmode  node
+attr source  pkCount
+attr title  "pkCount, count"
+scalar gAlohaTest.host[0].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar gAlohaTest.host[0].app 	appPkCount:count 	69702
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar gAlohaTest.host[0].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar gAlohaTest.host[0].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar gAlohaTest.host[0].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar gAlohaTest.host[0].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar gAlohaTest.host[0].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar gAlohaTest.host[0].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar gAlohaTest.host[0].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar gAlohaTest.host[0].mac 	time3:count 	1
+attr source  time3
+attr title  "time3, count"
+scalar gAlohaTest.host[0].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar gAlohaTest.host[0].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar gAlohaTest.host[0].mac 	time0:count 	1
+attr source  time0
+attr title  "time0, count"
+scalar gAlohaTest.host[0].mac 	sendPkCount:count 	69702
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar gAlohaTest.host[0].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar gAlohaTest.host[0].mac 	queueTime:mean 	0.0010812770446168
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar gAlohaTest.host[1].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar gAlohaTest.host[1].app 	appPkCount:count 	65336
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar gAlohaTest.host[1].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar gAlohaTest.host[1].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar gAlohaTest.host[1].mac 	time8:count 	1
+attr source  time8
+attr title  "time8, count"
+scalar gAlohaTest.host[1].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar gAlohaTest.host[1].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar gAlohaTest.host[1].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar gAlohaTest.host[1].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar gAlohaTest.host[1].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar gAlohaTest.host[1].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar gAlohaTest.host[1].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar gAlohaTest.host[1].mac 	time0:count 	1
+attr source  time0
+attr title  "time0, count"
+scalar gAlohaTest.host[1].mac 	sendPkCount:count 	65281
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar gAlohaTest.host[1].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar gAlohaTest.host[1].mac 	queueTime:mean 	0.0010679679923168
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar gAlohaTest.host[2].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar gAlohaTest.host[2].app 	appPkCount:count 	69108
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar gAlohaTest.host[2].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar gAlohaTest.host[2].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar gAlohaTest.host[2].mac 	time8:count 	1
+attr source  time8
+attr title  "time8, count"
+scalar gAlohaTest.host[2].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar gAlohaTest.host[2].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar gAlohaTest.host[2].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar gAlohaTest.host[2].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar gAlohaTest.host[2].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar gAlohaTest.host[2].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar gAlohaTest.host[2].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar gAlohaTest.host[2].mac 	time0:count 	1
+attr source  time0
+attr title  "time0, count"
+scalar gAlohaTest.host[2].mac 	sendPkCount:count 	69108
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar gAlohaTest.host[2].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar gAlohaTest.host[2].mac 	queueTime:mean 	0.0010844069870093
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar gAlohaTest.host[3].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar gAlohaTest.host[3].app 	appPkCount:count 	70527
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar gAlohaTest.host[3].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar gAlohaTest.host[3].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar gAlohaTest.host[3].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar gAlohaTest.host[3].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar gAlohaTest.host[3].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar gAlohaTest.host[3].mac 	time5:count 	0
+attr source  time5
+attr title  "time5, count"
+scalar gAlohaTest.host[3].mac 	time4:count 	1
+attr source  time4
+attr title  "time4, count"
+scalar gAlohaTest.host[3].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar gAlohaTest.host[3].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar gAlohaTest.host[3].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar gAlohaTest.host[3].mac 	time0:count 	1
+attr source  time0
+attr title  "time0, count"
+scalar gAlohaTest.host[3].mac 	sendPkCount:count 	70527
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar gAlohaTest.host[3].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar gAlohaTest.host[3].mac 	queueTime:mean 	0.0010821384914129
+attr source  queueTime
+attr title  "queueTime, mean"
+scalar gAlohaTest.host[4].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar gAlohaTest.host[4].app 	appPkCount:count 	64237
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar gAlohaTest.host[4].mac 	time10:count 	0
+attr source  time10
+attr title  "time10, count"
+scalar gAlohaTest.host[4].mac 	time9:count 	0
+attr source  time9
+attr title  "time9, count"
+scalar gAlohaTest.host[4].mac 	time8:count 	0
+attr source  time8
+attr title  "time8, count"
+scalar gAlohaTest.host[4].mac 	time7:count 	0
+attr source  time7
+attr title  "time7, count"
+scalar gAlohaTest.host[4].mac 	time6:count 	0
+attr source  time6
+attr title  "time6, count"
+scalar gAlohaTest.host[4].mac 	time5:count 	1
+attr source  time5
+attr title  "time5, count"
+scalar gAlohaTest.host[4].mac 	time4:count 	0
+attr source  time4
+attr title  "time4, count"
+scalar gAlohaTest.host[4].mac 	time3:count 	0
+attr source  time3
+attr title  "time3, count"
+scalar gAlohaTest.host[4].mac 	time2:count 	0
+attr source  time2
+attr title  "time2, count"
+scalar gAlohaTest.host[4].mac 	time1:count 	0
+attr source  time1
+attr title  "time1, count"
+scalar gAlohaTest.host[4].mac 	time0:count 	1
+attr source  time0
+attr title  "time0, count"
+scalar gAlohaTest.host[4].mac 	sendPkCount:count 	64237
+attr interpolationmode  node
+attr source  sendPkCount
+attr title  "pkCount, count"
+scalar gAlohaTest.host[4].mac 	discardPkCount:count 	0
+attr interpolationmode  node
+attr source  discardPkCount
+attr title  "discardPkCount, count"
+scalar gAlohaTest.host[4].mac 	queueTime:mean 	0.0010828931130494
+attr source  queueTime
+attr title  "queueTime, mean"

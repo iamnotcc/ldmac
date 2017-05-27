@@ -1,0 +1,54 @@
+file 14206 1488971994                                           
+version 2
+run cApplicationTest-0-20170308-19:19:14-12520
+attr configname cApplicationTest
+attr datetime 20170308-19:19:14
+attr experiment cApplicationTest
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network cApplicationTest
+attr processid 12520
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.ap.mobility.initFromDisplayString false
+param **.ap.mobility.initialX 300m
+param **.ap.mobility.initialY 300m
+param **.ap.mobility.initialZ 0m
+param **.ap.mobilityType "\"StationaryMobility\""
+param **.constraintAreaMaxX 600m
+param **.constraintAreaMaxY 600m
+param **.constraintAreaMaxZ 0m
+param **.constraintAreaMinX 0m
+param **.constraintAreaMinY 0m
+param **.constraintAreaMinZ 0m
+param **.hostNum 3
+param **.host[*].app.burstInterval exponential(0.1s)
+param **.host[*].app.burstNum "normal(50, 5)"
+param **.host[*].app.packetLength 4096b
+param **.host[*].app.startTime 0s
+param **.host[*].appType "\"BurstGenerator\""
+param **.host[*].mobility.initFromDisplayString false
+param **.host[*].mobility.speed 20mps
+param **.host[*].mobility.updateInterval 1s
+param **.host[*].mobility.waitTime 0.5s
+param **.host[*].mobilityType "\"RandomWPMobility\""
+vector 2  cApplicationTest.host[2].sink  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rcvdPk
+attr title "packets received, vector(packetBytes)"
+2	10589 3617 2 248 0.048512816372 0.115943631934 141 512 512 72192 36962304
+vector 0  cApplicationTest.host[0].sink  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rcvdPk
+attr title "packets received, vector(packetBytes)"
+0	1833 2998 44 492 0.097700642639 0.419418997187 117 512 512 59904 30670848
+vector 1  cApplicationTest.host[1].sink  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rcvdPk
+attr title "packets received, vector(packetBytes)"
+1	4831 5758 89 470 0.103815930066 0.413176072752 224 512 512 114688 58720256

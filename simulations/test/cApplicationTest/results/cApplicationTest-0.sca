@@ -1,0 +1,93 @@
+version 2
+run cApplicationTest-0-20170308-19:19:14-12520
+attr configname cApplicationTest
+attr datetime 20170308-19:19:14
+attr experiment cApplicationTest
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network cApplicationTest
+attr processid 12520
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.ap.mobility.initFromDisplayString false
+param **.ap.mobility.initialX 300m
+param **.ap.mobility.initialY 300m
+param **.ap.mobility.initialZ 0m
+param **.ap.mobilityType "\"StationaryMobility\""
+param **.constraintAreaMaxX 600m
+param **.constraintAreaMaxY 600m
+param **.constraintAreaMaxZ 0m
+param **.constraintAreaMinX 0m
+param **.constraintAreaMinY 0m
+param **.constraintAreaMinZ 0m
+param **.hostNum 3
+param **.host[*].app.burstInterval exponential(0.1s)
+param **.host[*].app.burstNum "normal(50, 5)"
+param **.host[*].app.packetLength 4096b
+param **.host[*].app.startTime 0s
+param **.host[*].appType "\"BurstGenerator\""
+param **.host[*].mobility.initFromDisplayString false
+param **.host[*].mobility.speed 20mps
+param **.host[*].mobility.updateInterval 1s
+param **.host[*].mobility.waitTime 0.5s
+param **.host[*].mobilityType "\"RandomWPMobility\""
+
+scalar cApplicationTest.host[0].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar cApplicationTest.host[0].app 	appPkCount:count 	145
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar cApplicationTest.host[0].sink 	throughput 	1142609.1884587
+scalar cApplicationTest.host[0].sink 	packetPerSec 	278.95732140105
+scalar cApplicationTest.host[0].sink 	rcvdPk:count 	117
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar cApplicationTest.host[0].sink 	rcvdPk:sum(packetBytes) 	59904
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+scalar cApplicationTest.host[1].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar cApplicationTest.host[1].app 	appPkCount:count 	224
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar cApplicationTest.host[1].sink 	throughput 	2220612.6165266
+scalar cApplicationTest.host[1].sink 	packetPerSec 	542.14175208169
+scalar cApplicationTest.host[1].sink 	rcvdPk:count 	224
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar cApplicationTest.host[1].sink 	rcvdPk:sum(packetBytes) 	114688
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+scalar cApplicationTest.host[2].app 	errorCount:count 	0
+attr interpolationmode  node
+attr source  errorCount
+attr title  "errorCount, count"
+scalar cApplicationTest.host[2].app 	appPkCount:count 	141
+attr interpolationmode  node
+attr source  appPkCount
+attr title  "appPkCount, count"
+scalar cApplicationTest.host[2].sink 	throughput 	4981179.1330528
+scalar cApplicationTest.host[2].sink 	packetPerSec 	1216.1081867805
+scalar cApplicationTest.host[2].sink 	rcvdPk:count 	141
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar cApplicationTest.host[2].sink 	rcvdPk:sum(packetBytes) 	72192
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
