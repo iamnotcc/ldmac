@@ -22,6 +22,11 @@ simple CsaApMac like IApMac
 	    double slotLength @unit(s);
 	    int slotNum;
 	    @display("i=block/ifcard");
+	    
+	    //统计
+	    //总共接收到的数据包个数
+	    @signal[pkCount](type=long);
+	    @statistic[pkCount](title="pkCount";source=pkCount;record=count;interpolationmode=node);
 	    @class(CsaApMac);
 	    
 	gates:

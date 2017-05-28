@@ -54,7 +54,7 @@ void CsaApMac::initParameters()
 //初始化统计参数
 void CsaApMac::initStatistic()
 {
-
+    m_ssPkCount=registerSignal("pkCount");
 }
 
 //处理自消息
@@ -81,6 +81,7 @@ void CsaApMac::handleHostData()
     }
 
     vector<CsaHostPk *> cleanDataVec;
+    cleanDataVec.clear();
     int cleanPks=1;
     simtime_t currentTimeStamp;
     for(int itertimes=0;itertimes<vecHostPks.size();itertimes++)
@@ -129,6 +130,8 @@ void CsaApMac::handleHostData()
     for(int i=0;i<cleanDataVec.size();i++)
     {
         EV_DEBUG<<"["<<i<<"]:"<<cleanDataVec[i]->getFullName()<<endl;
+        //成功接收到一个数据包，统计+1
+        emit(m_ssPkCount,1l);
     }
     vecHostPks.clear();
 }

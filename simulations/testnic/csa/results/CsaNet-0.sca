@@ -1,14 +1,14 @@
 version 2
-run CsaNet-0-20170525-14:40:07-9428
+run CsaNet-0-20170528-13:59:17-6288
 attr configname CsaNet
-attr datetime 20170525-14:40:07
+attr datetime 20170528-13:59:17
 attr experiment CsaNet
 attr inifile omnetpp.ini
 attr iterationvars ""
 attr iterationvars2 $repetition=0
 attr measurement ""
 attr network CsaNet
-attr processid 9428
+attr processid 6288
 attr repetition 0
 attr replication #0
 attr resultdir results
@@ -44,11 +44,15 @@ param **.host[*].mobility.updateInterval 1s
 param **.host[*].mobility.waitTime 0.1s
 param **.host[*].mobilityType "\"RandomWPMobility\""
 
+scalar CsaNet.ap.mac 	pkCount:count 	128355
+attr interpolationmode  node
+attr source  pkCount
+attr title  "pkCount, count"
 scalar CsaNet.host[0].app 	errorCount:count 	0
 attr interpolationmode  node
 attr source  errorCount
 attr title  "errorCount, count"
-scalar CsaNet.host[0].app 	appPkCount:count 	0
+scalar CsaNet.host[0].app 	appPkCount:count 	25226
 attr interpolationmode  node
 attr source  appPkCount
 attr title  "appPkCount, count"
@@ -56,7 +60,7 @@ scalar CsaNet.host[1].app 	errorCount:count 	0
 attr interpolationmode  node
 attr source  errorCount
 attr title  "errorCount, count"
-scalar CsaNet.host[1].app 	appPkCount:count 	0
+scalar CsaNet.host[1].app 	appPkCount:count 	22701
 attr interpolationmode  node
 attr source  appPkCount
 attr title  "appPkCount, count"
@@ -64,7 +68,7 @@ scalar CsaNet.host[2].app 	errorCount:count 	0
 attr interpolationmode  node
 attr source  errorCount
 attr title  "errorCount, count"
-scalar CsaNet.host[2].app 	appPkCount:count 	0
+scalar CsaNet.host[2].app 	appPkCount:count 	20655
 attr interpolationmode  node
 attr source  appPkCount
 attr title  "appPkCount, count"
@@ -72,7 +76,7 @@ scalar CsaNet.host[3].app 	errorCount:count 	0
 attr interpolationmode  node
 attr source  errorCount
 attr title  "errorCount, count"
-scalar CsaNet.host[3].app 	appPkCount:count 	0
+scalar CsaNet.host[3].app 	appPkCount:count 	23908
 attr interpolationmode  node
 attr source  appPkCount
 attr title  "appPkCount, count"
@@ -80,7 +84,7 @@ scalar CsaNet.host[4].app 	errorCount:count 	0
 attr interpolationmode  node
 attr source  errorCount
 attr title  "errorCount, count"
-scalar CsaNet.host[4].app 	appPkCount:count 	149
+scalar CsaNet.host[4].app 	appPkCount:count 	22774
 attr interpolationmode  node
 attr source  appPkCount
 attr title  "appPkCount, count"
@@ -88,7 +92,7 @@ scalar CsaNet.host[5].app 	errorCount:count 	0
 attr interpolationmode  node
 attr source  errorCount
 attr title  "errorCount, count"
-scalar CsaNet.host[5].app 	appPkCount:count 	0
+scalar CsaNet.host[5].app 	appPkCount:count 	21832
 attr interpolationmode  node
 attr source  appPkCount
 attr title  "appPkCount, count"
@@ -96,7 +100,7 @@ scalar CsaNet.host[6].app 	errorCount:count 	0
 attr interpolationmode  node
 attr source  errorCount
 attr title  "errorCount, count"
-scalar CsaNet.host[6].app 	appPkCount:count 	0
+scalar CsaNet.host[6].app 	appPkCount:count 	22951
 attr interpolationmode  node
 attr source  appPkCount
 attr title  "appPkCount, count"

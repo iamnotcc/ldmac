@@ -25,6 +25,9 @@ private:
 
     cMessage *m_selfMsgHandleHostData;
 
+    //Í³¼ÆÁ¿
+    simsignal_t m_ssPkCount;
+
 protected:
     void initParameters();
     void initStatistic();
